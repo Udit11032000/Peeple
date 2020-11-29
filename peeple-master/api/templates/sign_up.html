@@ -6,15 +6,37 @@
   </head>
   <body>
     <h1>sign up</h1>
-    <form method="POST">
-      {{form.hidden_tag()}}
-      {{form.name.label}}{{form.name()}}<br>
-      {{form.email.label}}{{form.email()}}<br>
-      {{form.facebook.label}}{{form.facebook()}}<br>
-      {{form.twitter.label}}{{form.twitter()}}<br>
-      {{form.linkedin.label}}{{form.linkedin()}}<br>
-      {{form.github.label}}{{form.github()}}<br>
-      {{form.submit()}}<br>
+    <form action="" method="POST">
+        <p>
+            {{form.hidden_tag()}}
+        </p>
+      <p>
+          {{form.name.label}}<br>
+          {{form.name()}}
+        </p>
+      <p>
+          {{form.email.label}}{{form.email()}}<br>
+        </p>
+      <p>
+          {{form.facebook.label}}{{form.facebook()}}<br>
+        </p>
+        <p>
+            {{form.facebook.label}}{{form.facebook()}}<br>
+        </p>
+      <p>
+          {{form.twitter.label}}{{form.twitter()}}<br>
+        </p>
+      <p>
+          {{form.linkedin.label}}{{form.linkedin()}}<br>
+        </p>
+      <p>
+           {{form.github.label}}{{form.github()}}<br>
+        </p>
+        <p>
+            {{form.submit()}}<br>
+        </p>
+     
+      
     </form>
   </body>
 </html>
